@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+ int i,m,c=0,n,l;
+ scanf("%d",&i);
+ while(i-->0)
+ {
+  scanf("%d%d%d",&m,&n,&l);
+  if(m==1&&n==1)
+  {
+   c++;
+  }
+  else if(l==1&&n==1)
+  {
+   c++;
+  }
+  else if(m==1&&l==1)
+  {
+   c++;
+  }
+  else{
+   continue;
+  }
+ }
+ printf("%d",c);
+ return 0;
+ 
+} 
