@@ -11,3 +11,27 @@ int main()
  
     cout << sum;
 }
+
+
+// 2ND WAY BUT TIME LIMIT EXCEEDED IN 5 TH CASE
+#include<iostream>
+using namespace std;
+int main()
+{
+long  c;
+int p,s=0,z;
+cin>>c;
+for(long long  i=1;i<=c;i++)
+{
+if(i%2==1)
+p+=(-i);
+else
+p+=(i);
+}
+cout<<p;
+}
+
+
+
+
+}
