@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    long long t,sum=0;
+    cin >> t;
+    if(t%2)
+        sum-=((t+1)/2);
+    else
+        sum+=(t/2);
+ 
+    cout << sum;
+}
