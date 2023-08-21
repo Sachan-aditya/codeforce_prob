@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String arfs[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.next();
+        String st1=s.substring(0,1).toUpperCase();
+        String st2=s.substring(1);
+        String str3=str1+st2;
+        System.out.println(str3);
+    }
+}
