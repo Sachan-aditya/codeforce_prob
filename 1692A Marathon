@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;int c=0;
+    cin>>n;
+    int ar[4];
+    while(n--)
+    {
+        for(int i=0;i<4;i++)
+        {
+            cin>>ar[i];
+        }
+        for(int i=0;i<4;i++)
+        {
+            int max=ar[0];
+            if(max<ar[i])
+            c++;
+        }
+        cout<<c<<endl;
+        c=0;// to restart it again // sachan
+    }
+}
