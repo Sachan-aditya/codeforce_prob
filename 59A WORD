@@ -33,4 +33,10 @@ else
     
  
 }
+//check
+// WHENEVER UPPER -->isupper(s[i])
+// whenver lower--> islower(s[i])
 
+// implement 
+// char c=toupper(s[i])
+//char p=tolower(s[i])
