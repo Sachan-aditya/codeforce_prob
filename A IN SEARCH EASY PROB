@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,p;
+    cin>>n;int c,d=0;
+    while(n--)
+    {
+        cin>>p;
+        if(p==0)
+        c++;
+        else
+        d++;
+    }
+    if(d>=1)
+    cout<<"HARD";
+    else
+    cout<<"Easy";
+}
